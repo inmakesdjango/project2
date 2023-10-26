@@ -3,5 +3,5 @@ from django.urls import path
 app_name='searchapp'
 urlpatterns = [
 
-    path('', views.SearchResult, name='SearchResult'),
+    path('search', views.SearchResult, name='SearchResult'),
 ]
